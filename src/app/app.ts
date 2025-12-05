@@ -10,4 +10,7 @@ import { MaterialDemo } from "./components/material-demo/material-demo";
 })
 export class App {
   protected readonly title = signal('project2');
+  add(a:number,b:number){
+    return a+b;
+  }
 }
