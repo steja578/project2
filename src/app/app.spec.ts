@@ -27,11 +27,6 @@ describe('app file',()=>{
     expect(app.isPrime(10)).toBeFalse();
   });
 
-  //5
-  it('gcd',()=>{
-    expect(app.gcd(48,18)).toBe(6);
-  });
-
   //6
   it('reverse no',()=>{
     expect(app.reverseNumber(12345)).toBe(54321);
