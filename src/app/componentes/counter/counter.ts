@@ -29,4 +29,5 @@ export class Counter {
     const actionObj = this.reset();
     this.store.dispatch(actionObj);
   }
+  
 }
